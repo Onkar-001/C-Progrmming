@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
-#include<math.h>
 void main()
 {
- int value;
+ int n;
  clrscr();
- printf("Enter the value :");
- scanf("%d",&value);
- printf("The square root of the number is : %f",sqrt(value));
+ printf("Enter the number = ");
+ scanf("%d",&n);
+ printf("The square of the number is = %d\n",n*n);
+ printf("The square root of the number is = %d",(n * n)/n);
  getch();
  }
